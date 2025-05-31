@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import MembershipCTA from '@/components/sections/MembershipCTA'
 import TestimonialCarousel from '@/components/sections/TestimonialCarousel'
+import { Users, Calendar } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
               <span className="text-sm md:text-base lg:text-lg tracking-widest mt-2 opacity-90">ARTIFICIAL INTELLIGENCE</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/80 font-light leading-relaxed">
-              Dubai's most exclusive members-only social club for elite business professionals, powered by artificial intelligence.
+              Dubai&apos;s most exclusive members-only social club for elite business professionals, powered by artificial intelligence.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4">
               <Button 
@@ -62,7 +63,7 @@ export default function Home() {
                 <span className="gold-gradient">The Future</span> of Elite Networking
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Elysium AI is more than a members club. It's a curated community where Dubai's most influential business leaders connect, collaborate, and receive personalized AI-powered insights tailored to their specific needs and ambitions.
+                Elysium AI is more than a members club. It&apos;s a curated community where Dubai&apos;s most influential business leaders connect, collaborate, and receive personalized AI-powered insights tailored to their specific needs and ambitions.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
                 What begins as a social experiment will evolve into Dubai's most sought-after membership, blending human connection with artificial intelligence to create unparalleled business opportunities.
